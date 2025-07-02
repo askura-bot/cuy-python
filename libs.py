@@ -6,7 +6,7 @@ PC_NAME = socket.gethostname()
 def welcome_massage():
     star = "*" * (len(PC_NAME) + 6)
     print(star)
-    print(f"** {PC_NAME} **")
+    print(f"** SELAMAT DATANG {PC_NAME} **")
     print(star)
     
 def welcome_massage_warung_mini():
